@@ -1,0 +1,1980 @@
+/* Back to Top */
+
+html {
+    scroll-behavior: smooth;
+}
+
+#everBtnTop {
+    display: none;
+    position: fixed;
+    bottom: 3.8em;
+    right: 30px;
+    z-index: 99;
+    font-size: .8em;
+    border: none;
+    outline: none;
+    background-color: rgb(255, 187, 0, 1);
+    color: white;
+    cursor: pointer;
+    margin: 0 0 .5em 0;
+    padding: 0.4em 0.7em 0.5em 0.7em;
+    border-radius: 4px;
+}
+
+.whatsapp-fixed {
+    font-size: 1.8em;
+    color: #ffffff !important;
+    background: #39e600;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #269900, #39e600);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #269900, #39e600);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: .45em;
+    position: fixed;
+    bottom: 3.5em;
+    right: .7em;
+}
+
+.whatsapp-fixed a:active {
+    color: #39e600;
+}
+
+.whatsapp-fixed a:hover {
+    color: #ffbb00;
+}
+
+#whatsapp-icon-fixed {
+    color: #ffffff !important;
+    padding: .1em 0.17em .1em 0.18em !important;
+}
+
+#everBtnTop:hover {
+    background-color: #141E30;
+}
+
+@media only screen and (max-width: 34em) {
+    html {
+        scroll-behavior: smooth;
+    }
+    #everBtnTop {
+        font-size: .8em !important;
+        bottom: 1.3em;
+        right: 0.8em;
+        padding: 0.4em 0.7em 0.5em 0.7em;
+        margin: 0 0 .5em 0;
+    }
+    .whatsapp-fixed {
+        font-size: 1.5em;
+        bottom: 3.5em;
+        right: 0.4em;
+    }
+    .whatsapp-fixed a {
+        color: #39e600;
+    }
+    .whatsapp-fixed a:visited a:hover a:active {
+        color: #ffbb00 !important;
+    }
+}
+
+
+/* FAQ */
+
+.accordion.accordion-3 {
+    border-radius: 3px;
+}
+
+.accordion.accordion-3 p {
+    font-size: 1rem;
+}
+
+.accordion.accordion-3 .fa.fa-angle-down {
+    margin-top: -10px;
+}
+
+.accordion .animated-icon1 span {
+    background: #F44336;
+}
+
+
+/* Testimonial Carousel */
+
+.carousel-testimonial body {
+    font-family: "Open Sans", sans-serif;
+}
+
+.carousel-testimonial h2 {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    position: relative;
+    margin: 30px 0 60px;
+}
+
+.carousel-testimonial h2::after {
+    content: "";
+    width: 100px;
+    position: absolute;
+    margin: 0 auto;
+    height: 3px;
+    background: #8fbc54;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+}
+
+.testimonial {
+    font-size: 1.5em;
+}
+
+.col-center {
+    margin: 0 auto;
+    float: none !important;
+}
+
+.carousel {
+    margin: 50px auto;
+    padding: 0 70px;
+}
+
+.carousel .item {
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    overflow: hidden;
+    min-height: 20em;
+}
+
+.carousel .item .img-box {
+    width: 135px;
+    height: 135px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+}
+
+.carousel .testimonial {
+    padding: 30px 0 10px;
+}
+
+.carousel .overview {
+    font-style: italic;
+}
+
+.carousel .overview b {
+    text-transform: uppercase;
+    color: #7AA641;
+}
+
+.carousel .carousel-control {
+    width: 1.5em;
+    height: 2.5em;
+    margin-top: -20px;
+    top: 40%;
+    background: none;
+}
+
+.carousel-control i {
+    font-size: 1.3em;
+    position: absolute;
+    display: inline-block;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.carousel-indicators li,
+.carousel-indicators li.active {
+    width: 1.5em;
+    height: 0em;
+    border: 1px solid #ffbb00 !important;
+}
+
+.carousel-indicators li.active {
+    width: 1.5em;
+    border: 1px solid #6d6d6d !important;
+}
+
+
+/* MODAL Styles */
+
+.modal-content #logo {
+    width: 120px;
+    margin: 30px;
+}
+
+.modal-content footer {
+    position: absolute;
+    bottom: 10px;
+    font-size: 60px;
+    left: 20px;
+    width: 95%;
+    font-size: 36px;
+    text-align: center;
+}
+
+#divLogin {
+    padding: 30px;
+    width: 300px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#superior {
+    padding: 30px !important;
+    background-color: #63635f;
+    margin-bottom: 5px;
+    border-radius: 0px;
+    text-align: center;
+    padding: 5px;
+}
+
+#superior img {
+    width: 90px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#inferior {
+    background-color: #4b4b4d;
+    height: 70px;
+    text-align: center;
+    display: table;
+    width: 100%;
+    font-size: 25px;
+    vertical-align: middle;
+    border-radius: 0 0 20px 20px;
+}
+
+#inferior span {
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.campos {
+    display: block;
+    width: 85%;
+    border: 0;
+    background: transparent;
+    border-bottom: 1px solid #434343;
+    margin-bottom: 10px;
+    color: #434343;
+    margin-left: 5px;
+}
+
+.erro {
+    color: yellow;
+    font-size: 11px;
+    font-weight: bold;
+    margin-top: 30px !important;
+    display: block;
+}
+
+#login {
+    background: url("../../../www.alocat.com.br/sistema/images/iconEmail.png") no-repeat scroll 7px 15px;
+    background-size: 7% auto;
+    padding-left: 40px;
+    outline: none;
+    height: 40px;
+    font-size: 14px;
+    color: #FFF;
+}
+
+#pwd {
+    background: url("../../../www.alocat.com.br/sistema/images/iconChave.png") no-repeat scroll 11px 12px;
+    background-size: 5% auto;
+    padding-left: 40px;
+    height: 40px;
+    font-size: 14px;
+    outline: none;
+    color: #FFF;
+}
+
+#botoes {
+    position: relative;
+    height: 40px;
+}
+
+#btnEntrar {
+    background-color: #f99d1c;
+    border: 0;
+    padding: 15px;
+    color: #FFF;
+    cursor: pointer;
+    width: 102%;
+    font-weight: bold;
+    position: absolute;
+    left: 5px;
+}
+
+#btnEntrar:hover {
+    background-color: #ffc600;
+}
+
+.modal-content a {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 10px;
+    position: absolute;
+    right: 20px;
+    bottom: 22px;
+}
+
+.forgotpassword:hover {
+    text-decoration: underline;
+}
+
+ ::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #FFF;
+}
+
+ ::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #FFF;
+}
+
+ :-ms-input-placeholder {
+    /* IE 10+ */
+    color: #FFF;
+}
+
+ :-moz-placeholder {
+    /* Firefox 18- */
+    color: #FFF;
+}
+
+
+/* Hero Paginas Internas */
+
+body {
+    background-color: #ffffff;
+}
+
+.section-page {
+    padding: 1em 15px 3em 15px !important;
+}
+
+.hero-pages {
+    height: 9em;
+    text-align: center;
+    vertical-align: middle;
+    border-bottom: 5px solid #ffff00;
+    background: #ffbb00;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffbb00, #ffff00);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffbb00, #ffff00);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.hero-pages h1 {
+    color: #ffffff;
+    padding: 1.2em 0em 2em 0em;
+    text-shadow: 2px 2px 3px #808080;
+}
+
+.tabela-plano {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0em 1.5em 3em 1.5em;
+    padding: 2.5em 2em 2em 2em;
+    border: 1px solid antiquewhite;
+    border-radius: 8px;
+    max-width: 23em !important;
+}
+
+.header-tabela-plano-1 {
+    background-color: rgba(red, green, blue, );
+}
+
+.tabela-plano h1 {
+    color: #ffbb00;
+    padding: 0em 0em 0em 0em;
+}
+
+.bonus-planos {
+    text-align: center;
+    list-style-type: none;
+    padding: 0em 0em 2em 0em;
+    margin: 0em 0em 2px 0em;
+}
+
+.bonus-planos h1 {
+    color: #ffbb00;
+    font-size: 1.5em;
+}
+
+.bonus-planos h5 {
+    color: #ffffff;
+    font-size: 1em;
+    font-weight: 200;
+    padding: .2em .2em;
+}
+
+.bonus-planos i {
+    color: #ffbb00;
+    padding-right: .2em;
+}
+
+.bonus-planos a {
+    text-decoration: none !important;
+}
+
+#underline-bonus-plano {
+    color: #ffffff;
+    font-size: .8em;
+}
+
+.tabela-plano p {
+    color: #ffffff !important;
+}
+
+#item-tabela-planos {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0em 0em 0em 0em !important;
+}
+
+#item-tabela-planos h5 {
+    color: #ffffff;
+    padding-right: .3em;
+    padding-bottom: .5em;
+}
+
+#item-tabela-planos i {
+    color: #ffbb00;
+    padding-right: .3em;
+}
+
+#underline-item-plano {
+    color: #ffffff;
+    font-weight: 200;
+    font-size: .6em;
+}
+
+.text-content {
+    padding-left: 2em !important;
+    padding-right: 2em !important;
+}
+
+.img-sobre {
+    min-width: 290px;
+    background: url('../img/sobre-alocat.png') no-repeat center top;
+    min-height: 16em;
+}
+
+.typewriter a {
+    color: #ffbb00;
+    text-decoration: none !important;
+    cursor: default;
+}
+
+.typewriter a:hover {
+    color: #ffbb00;
+}
+
+.content-pages {
+    padding: 4em 0em 0em 0em;
+}
+
+.content-pages p {
+    color: #999999;
+    font-size: 1.em !important;
+}
+
+
+/* Cadastro Imobiliária */
+
+.iframe-cadastro-imob {
+    height: 26em;
+}
+
+@media screen and (max-width: 34em) {
+    .typewriter {
+        padding-top: 1em;
+        font-size: 1.4em;
+    }
+    .content-pages {
+        padding-top: 0em;
+    }
+    .img-sobre {
+        min-height: 16em;
+        margin-right: 5em;
+    }
+    .content-pages p {
+        color: #404040;
+    }
+}
+
+
+/* fiança digital */
+
+.hero-fianca-digital h1 {
+    font-size: 1.4em;
+    color: #595959;
+    font-weight: 200;
+}
+
+.text-fianca-digital h2 {
+    font-size: 1.7em;
+    color: #ffbb00;
+    font-weight: 200;
+    padding-bottom: .2em;
+    border-bottom: 1px #e6e6e6 solid;
+}
+
+.text-fianca-digital h4 {
+    color: #505050 !important;
+    padding-top: 1em;
+    font-weight: 300;
+}
+
+.hero-fianca-digital b {
+    color: #ffbb00;
+}
+
+.text-fianca-digital h5 {
+    color: #808080 !important;
+    font-weight: 300;
+}
+
+.text-fianca-digital h6 {
+    color: #808080 !important;
+    font-weight: 300;
+}
+
+.text-fianca-digital p {
+    font-size: 1.2em;
+    font-weight: 200;
+}
+
+
+/* Cadastro Imobiliária */
+
+.iframe-cadastro-imob {
+    height: 26em;
+}
+
+
+/* Cadastro Membro */
+
+.iframe-cadastro {
+    height: 23em;
+}
+
+.hero-cad-membro h1 {
+    font-size: 2em;
+    padding-top: 1em !important;
+}
+
+@media screen and (max-width: 34em) {
+    .hero-cad-membro h1 {
+        font-size: 1.6em !important;
+        padding-top: .2em !important;
+    }
+    .hero-fianca-digital h1 {
+        font-size: 1.1em;
+        font-weight: 200;
+    }
+    #hero-cad-menbro {
+        padding: 1em 0em 2em 0em !important;
+    }
+    /* Cadastro Imobiliária */
+    .iframe-cadastro-imob {
+        height: 42em;
+    }
+    .iframe-cadastro {
+        min-height: 53em;
+    }
+}
+
+@media screen and (max-width: 50em) {
+    .hero-cad-membro h1 {
+        font-size: 1.8em;
+        padding-top: .2em !important;
+    }
+    #hero-cad-menbro {
+        padding: 1.5em 0em 2em 0em !important;
+    }
+    /* Cadastro Imobiliária */
+    .iframe-cadastro-imob {
+        height: 42em;
+    }
+    .iframe-cadastro {
+        min-height: 53em;
+    }
+}
+
+
+/* Rede Descontos */
+
+.iframe-allya {
+    text-align: center;
+    width: 100% !important;
+    height: 31em;
+}
+
+@media screen and (max-width: 50em) {
+    .iframe-allya {
+        text-align: center;
+        height: 294px;
+        width: 20em !important;
+    }
+}
+
+
+/* Ass. Residencial */
+
+.tabela-plano-res {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 1em 1em 2em 1em;
+    padding: 0em 0em 2em 0em !important;
+    border: 1px solid #ffbb00;
+    background-color: #5900b3;
+    border-radius: 10px;
+    max-width: 33em !important;
+}
+
+.header-tabela-plano-1-res {
+    background-color: rgba(red, green, blue, );
+}
+
+.tabela-plano-res h1 {
+    color: #ffc933;
+    background-color: indigo;
+    border-bottom: 1px solid ivory;
+    border-end-end-radius: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: .7em 0em .5em 0em;
+}
+
+.tabela-plano-res p {
+    color: #f1f1f1 !important;
+}
+
+#item-tabela-planos-res {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 0em 0em 0em 0em !important;
+}
+
+#item-tabela-planos-res h5 {
+    color: #f1f1f1;
+    padding: .9em .3em .5em 0em;
+}
+
+#item-tabela-planos-res i {
+    color: #ffc933;
+    padding-right: .3em;
+}
+
+.text-ass-res h2 {
+    font-size: .9em !important;
+}
+
+.text-ass-res h6 {
+    font-size: .8em !important;
+}
+
+.text-ass-res p {
+    font-size: .8em !important;
+}
+
+#underline-item-plano-res {
+    color: #ffc933;
+    font-weight: 200;
+    font-size: .7em;
+}
+
+@media screen and (max-width: 50em) {
+    .tabela-plano-res {
+        margin: 1em 1.5em 2em 1.5em;
+        padding: 0em 0em 2em 0em !important;
+        border: 1px solid #ffbb00;
+        background-color: #5900b3;
+        border-radius: 10px;
+        max-width: 25em !important;
+    }
+    .tabela-plano-res h1 {
+        font-size: 2.2em;
+    }
+    #item-tabela-planos-res {
+        padding: 0em 1.5em 0em 1.5em !important;
+    }
+    #underline-item-plano-res {
+        font-size: .8em;
+        font-weight: 600;
+    }
+    .text-ass-res p {
+        color: #404040;
+    }
+}
+
+
+/* Desconto em Farmácia */
+
+.tabela-plano-res p {
+    padding: .5em 2em 0em 2em;
+}
+
+.tabela-plano-res {
+    max-width: 52em !important;
+}
+
+@media screen and (max-width: 34em) {}
+
+
+/* Ass PET */
+
+#ass-pet-table {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #f1f1f1;
+    text-align: center;
+    border-top: 1px solid #ffbb00 !important;
+    padding: 1em 0em 1em 0em !important;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: .3em;
+}
+
+
+/* Ass. Funeral */
+
+.item-ass-fun li {
+    color: #f1f1f1 !important;
+    max-width: 28em;
+    text-align: left;
+    margin: 0 auto !important;
+}
+
+#footer-desc {
+    margin-top: 5em;
+}
+
+
+/*------------------------------------------------------------------
+Theme Name: alocat-theme 	Alocat 2020 | Everest Bootstrap
+Description: Everest Design | Bootstrap Theme 2021 | Fiança Digital
+Author: Carlos Magalhães | Everest Design Co
+Version: 1.0
+Author URI: https://everestdesign.com.br/
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[TABLE OF CONTENTS]
+
+	1. Global Styles
+	2. Section Header
+		2.1. NavBar
+		2.2 Toggle Menu
+		2.3 Login
+		2.4 Modal Login
+	3. Section Hero
+	4. Section Video
+	5. Section Inquilinos
+	5. Section imobiliaria
+	5. Section Planos
+	6. Section Club Beneficios
+	7. Section Faq
+	8. Section Depoimentos
+	9. Section Footer
+		9.1. Footer Cols
+		9.2. Footer Copyright
+		9.3. Footer Mobile
+
+
+	
+-------------------------------------------------------------------*/
+
+
+/* 1. Global Styles */
+
+#teltopo {
+    bottom: 100em !important;
+    top: unset !important;
+}
+
+.whatsapp-open {
+    left: 100em !important;
+}
+
+body {
+    padding-top: 0em;
+}
+
+body h1 {
+    color: #4d4d4d;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: .05em;
+}
+
+body h2 {
+    color: #4d4d4d;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: .01em;
+}
+
+.titulo-internas p {
+    color: #4d4d4d;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: .05em;
+}
+
+.header-dark h1 {
+    color: #ffffff !important;
+}
+
+.header-dark h2 {
+    color: #ffffff;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #dadada;
+    padding: .5rem 0rem 0rem 0rem;
+    margin-bottom: 1rem;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.divisor {
+    display: block;
+    height: .5em;
+    background-color: #ffbb00;
+    background-size: cover;
+    border: 0em;
+    margin: 0 auto;
+}
+
+#legal-txt {
+    font-size: .8em !important;
+}
+
+
+/* 2. Section Header */
+
+
+/* 2.1. NavBar */
+
+.header-brand {
+    width: 8em;
+}
+
+.ever-bg-nav {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.dropdown-item {
+    text-align: center !important;
+}
+
+
+/* Toggle Menu */
+
+
+/* 2.2 Toggle Menu */
+
+#botao-nav-toggle {
+    padding-top: .2em;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 50px;
+    height: 2px;
+    background-color: #ffbb00;
+    margin: .5em 1.5em 0.5em 1.5em;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-9px, -9px);
+    transform: rotate(45deg) translate(-9px, -9px);
+}
+
+.ever-top-menu {
+    width: 170px;
+}
+
+.botao-menu-ever {
+    float: right;
+}
+
+.ever-overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(77, 0, 153, 0.95);
+    overflow-y: hidden;
+    transition: 0.5s;
+    z-index: 999999;
+}
+
+.ever-overlay-content {
+    position: relative;
+    top: 2%;
+    width: 100%;
+    text-align: center;
+}
+
+.ever-overlay-content h1 {
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    line-height: 0.3em;
+    color: #ffffff;
+}
+
+.header-menu-ever {
+    background-color: #330066;
+    padding: 1em 0em .5em 0em;
+    max-width: 26em;
+    margin: 0 auto;
+}
+
+.header-menu-ever a {
+    padding: .2em 0em .5em 0em;
+}
+
+.body-menu-ever {
+    background-color: rgba(89, 0, 179, 1);
+    padding: 1em 0em 1em 0em;
+    max-width: 26em;
+    margin: 0 auto;
+}
+
+.body-menu-ever h5 {
+    color: #e6e6e6;
+    padding: 1.5em 0em 1.5em 0em;
+}
+
+.body-menu-ever a {
+    padding: 8px;
+}
+
+.footer-menu-ever {
+    background-color: #330066;
+    padding: 0em 0em 1em 0em;
+    max-width: 26em;
+    margin: 0 auto;
+}
+
+.footer-menu-ever a {
+    padding: .5em 0em .5em 0em;
+}
+
+.footer-menu-ever i {
+    font-size: .2em;
+    padding-right: .5em;
+}
+
+.ever-overlay a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffbb00;
+    display: block;
+    transition: 0.3s;
+}
+
+.ever-overlay a:hover,
+.ever-overlay a:focus {
+    color: #f1f1f1;
+}
+
+.ever-closebtn {
+    z-index: 999999999;
+}
+
+.ever-overlay .ever-closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-width: 34em) {
+    .ever-overlay-content {
+        position: relative;
+        top: 0%;
+        width: 100%;
+    }
+    .ever-overlay .ever-closebtn {
+        position: absolute;
+        top: 15px;
+        right: 10px;
+        font-size: 35px;
+    }
+    .body-menu-ever {
+        background-color: (89, 0, 179, 1);
+    }
+}
+
+
+/* Menu Content */
+
+#menu-item-box {
+    padding-left: 1.5em !important;
+    padding-right: 1.5em !important;
+}
+
+#menu-item {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.box-beneficio {
+    width: 2em;
+    max-width: 31% !important;
+    margin-bottom: -.4em !important;
+}
+
+.box-beneficio-right {
+    text-align: right;
+}
+
+.box-beneficio-left {
+    text-align: left;
+}
+
+.box-beneficio button {
+    font-size: .9rem !important;
+    width: 108px;
+}
+
+.box-beneficio i {
+    color: #ffbb00;
+    font-size: 2em !important;
+    padding: 0em 0em .2em 0em;
+}
+
+@media screen and (max-width: 34em) {
+    .box-beneficio button {
+        width: 112px;
+        font-size: .95em !important;
+        padding: .5em .5em .5em .5em;
+    }
+    .menu-item-2 {
+        padding-left: 1em;
+        padding-right: 1em;
+        width: 25em;
+        text-align: center;
+    }
+    .box-beneficio-right {
+        text-align: right !important;
+    }
+    .box-beneficio-left {
+        text-align: left !important;
+    }
+    .login-button {
+        display: none;
+    }
+    .box-beneficio-right {
+        text-align: center;
+    }
+    .box-beneficio-left {
+        text-align: center;
+    }
+}
+
+@media screen and (max-height: 980px) {
+    .menu-item-2 {
+        padding-left: 1em;
+        padding-right: 1em;
+        width: 27em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-height: 450px) {
+    .ever-overlay {
+        overflow-y: auto;
+    }
+    .ever-overlay a {
+        font-size: 20px
+    }
+    .ever-overlay .ever-closebtn {
+        font-size: 40px;
+        top: 20px;
+        right: 35px;
+    }
+}
+
+.botao-menu {
+    width: 9em;
+    margin-bottom: -1em;
+}
+
+
+/* 2.3 Login */
+
+#login-menu {
+    width: 6em;
+}
+
+
+/* 3. Section Hero */
+
+.section-hero body {
+    font-family: 'Fira Sans', sans-serif;
+    padding: 2em 0em 0em 4em !important;
+}
+
+.section-hero {
+    color: whitesmoke;
+    margin-top: 0em auto;
+    background-color: grey;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    padding: 4em 0em 0em 0em;
+}
+
+.container-Hero {
+    height: 40em;
+    padding: 3em 0em 0em 4em !important;
+}
+
+.container-Hero h1 {
+    color: #6600cc !important;
+    font-size: 3.5em;
+    letter-spacing: 0.05em;
+    font-weight: 900;
+}
+
+.container-Hero p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.4em;
+}
+
+.hero-image {
+    background: url('../img/hero-bg.jpg') no-repeat center top;
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+.hero-buttons-size img {
+    width: 16em;
+    text-align: center;
+}
+
+.heroButtons {
+    height: 11em;
+    margin-top: 4em;
+}
+
+.btn-outline-light {
+    font-weight: 500 !important;
+}
+
+@media screen and (max-width: 1290px) {
+    .container-Hero {
+        height: 30em !important;
+    }
+    .heroButtons {
+        height: 0em !important;
+        margin-top: 1em !important;
+    }
+}
+
+@media only screen and (max-width: 62em) {
+    .hero-buttons-size img {
+        margin: -10em 0em -8em 0em !important;
+    }
+}
+
+@media only screen and (max-width: 52em) {
+    .section-hero {
+        height: 28em;
+    }
+    .hero-image {
+        background: url('../img/hero-bg-mob.jpg') no-repeat center top;
+        background-size: cover;
+        background-position-y: center;
+    }
+    .container-Hero {
+        height: 28em;
+        padding: 0em 1em 0em 1em !important;
+    }
+    .container-Hero h1 {
+        font-size: 2.7em;
+        letter-spacing: 0.03em;
+    }
+    .container-Hero p {
+        font-weight: 400;
+        font-size: 1.25em;
+        line-height: 1.3em;
+    }
+    .hero-buttons-size img {
+        width: 15em;
+        margin: -22em 0em -8em 0em !important;
+    }
+    .heroButtons {
+        text-align: center;
+        margin: 10em 0em 0em 0em !important;
+    }
+}
+
+@media screen and (max-width: 34em) {
+    .section-hero {
+        height: 40em;
+    }
+    .heroButtons {
+        height: 12em !important;
+        text-align: center;
+        margin: 0em 0em 0em 0em !important;
+    }
+    .hero-buttons-size img {
+        width: 16em;
+        margin: -10em 0em -8em 0em !important;
+    }
+    .container-Hero {
+        height: 36em;
+    }
+    .container-Hero h1 {
+        font-weight: 900 !important;
+        letter-spacing: 0em;
+    }
+    .container-Hero p {
+        font-size: 1.5em;
+        font-weight: 600 !important;
+    }
+}
+
+
+/* 4. Section Planos */
+
+.section-planos {
+    background-color: #f1f1f1;
+    padding: 5em 0em 8em 0em;
+}
+
+
+/* 5. Section Video */
+
+.section-video {
+    padding: 5em 0em 0em 0em;
+    background: #03001e;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ec38bc, #7303c0, #03001e);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ec38bc, #7303c0, #03001e);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.video-alocat {
+    max-width: 55em;
+}
+
+.btn-warning {
+    font-size: 1.2em !important;
+    color: #ffffff !important;
+    border-color: #ffffff !important;
+    padding: 0.7em 0em 0.7em 0em !important;
+    margin-top: 2.5em;
+    max-width: 17.7em !important;
+}
+
+.section-video h1 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: .05em;
+}
+
+#bold-color {
+    color: #ffd000;
+}
+
+#bold-color-2 {
+    color: #7300e6;
+}
+
+#bold-color-3 {
+    color: #4d4d4d;
+    font-weight: 700;
+}
+
+.section-video h2 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    letter-spacing: .05em;
+}
+
+.sub-section-video {
+    padding: 3em 0em 5em 0em;
+}
+
+
+/* 5. Section Inquilinos */
+
+.section-inquilinos {
+    color: #4d4d4d;
+    padding: 6em 0em 3em 0em;
+    margin-bottom: 3em;
+    background-color: #ffffff;
+}
+
+.section-inquilinos i {
+    color: #ffbb00;
+}
+
+.section-inquilinos h1 {
+    padding: 0em 0em 2em 0em;
+}
+
+.section-inquilinos h2 {
+    color: #4d4d4d;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 0em;
+    padding-bottom: 1em;
+}
+
+.section-inquilinos h3 {
+    color: #4d4d4d;
+    text-align: left;
+    font-size: 2em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 0em;
+    padding-bottom: 1em;
+}
+
+.section-inquilinos h5 {
+    color: #4d4d4d;
+    font-weight: 400 !important;
+    font-size: 1.1em;
+    margin-bottom: .5em !important;
+}
+
+.img-inquilinos-section {
+    background: url('../img/inquilinos.png') no-repeat center top;
+    background-size: contain;
+}
+
+@media screen and (max-width: 48em) {
+    .img-inquilinos-section {
+        min-height: 22em;
+        margin-top: 2em !important;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 34em) {
+    .section-inquilinos {
+        padding: 5em 0em 0em 0em;
+    }
+    .img-inquilinos-section {
+        padding: 2em 0.2em 0em 0.2em !important;
+    }
+    .section-inquilinos h1 {
+        font-size: 2.2em;
+        text-align: center;
+        padding: 0em 0em .5em 0em;
+    }
+    .section-inquilinos h3 {
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        letter-spacing: .05em;
+        padding: 0em 0em 1em 0em;
+    }
+    .btn-inq-imo {
+        font-size: 1.2em !important;
+        margin: 0 auto;
+        padding: 0.5em 0em .5em 0em !important;
+    }
+    .img-inquilinos-section {
+        min-width: 22em;
+        margin-top: 2em !important;
+    }
+}
+
+
+/* 5. Section Imobiliarias */
+
+.section-imobiliarias {
+    color: #ffffff;
+    background-color: #8c1aff;
+    padding: 6em 0em 6em 0em;
+}
+
+.section-imobiliarias i {
+    color: #ffbb00;
+}
+
+.section-imobiliarias h1 {
+    padding: 0em 0em 2em 0em;
+    color: #ffffff
+}
+
+.section-imobiliarias h3 {
+    color: #ffffff;
+    text-align: left;
+    font-size: 2em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 0em;
+    padding-bottom: 1em;
+}
+
+.section-imobiliarias h5 {
+    color: #ffffff;
+    font-weight: 400 !important;
+    font-size: 1.1em;
+    margin-bottom: .5em !important;
+}
+
+.img-imobiliarias-section {
+    background: url('../img/imobiliarias-2.png') no-repeat center top;
+    background-size: cover;
+}
+
+@media screen and (max-width: 48em) {
+    .img-imobiliarias-section {
+        min-height: 22em;
+        margin-top: 2em !important;
+        background-size: contain;
+    }
+}
+
+@media screen and (max-width: 34em) {
+    .section-imobiliarias {
+        padding: 5em 0em 0em 0em;
+    }
+    .section-imobiliarias h1 {
+        font-size: 2.2em;
+        text-align: center;
+        padding: 0em 0em .5em 0em;
+    }
+    .section-imobiliarias h3 {
+        text-align: center;
+        font-size: 1.5em;
+        font-family: 'Fira Sans', sans-serif;
+        font-weight: 500;
+        font-style: italic;
+        letter-spacing: .05em;
+        padding: 0em 0em 1em 0em;
+    }
+    .btn-inq-imo {
+        font-size: 1.2em !important;
+        margin: 0 auto;
+        padding: 0.5em 0em .5em 0em !important;
+    }
+    .img-imobiliarias-section {
+        min-width: 22em;
+        margin-top: 2em !important;
+    }
+}
+
+
+/* 6. Section Clube Beneficios */
+
+
+/* 7. Section Depoimentos */
+
+.section-dep {
+    text-align: center;
+    padding: 5em 0em 0em 0em;
+    background: #ffffff;
+}
+
+.section-dep h1 {
+    text-align: center;
+}
+
+.section-dep h2 {
+    color: #4d4d4d;
+    text-align: center;
+    font-size: 1.9em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 0em;
+}
+
+.section-dep h3 {
+    color: #4d4d4d;
+    text-align: center;
+    font-size: 1.7em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    letter-spacing: 0em;
+    padding-bottom: 1em;
+}
+
+@media only screen and (max-width: 55em) {
+    .carousel {
+        padding: 0em !important;
+        margin: 1em 0em 1em 0em !important;
+    }
+    .carousel p {
+        font-size: 1.4em;
+    }
+    .overview-bottom {
+        margin-top: 1em !important;
+    }
+    #overview {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 34em) {
+    .section-dep {
+        font-size: 2.2em;
+        padding: 1em 0em 0em 0em;
+    }
+    .section-dep h2 {
+        font-size: .7em;
+    }
+    .row-dep {
+        padding: 0em 0em 0em 0em;
+    }
+    .p-padding-dep {
+        padding-bottom: 3em !important;
+    }
+    .carousel-control {
+        visibility: hidden;
+    }
+}
+
+
+/* 8. Section FAQ */
+
+.section-faq {
+    background-color: #ffffff;
+    padding: 8em 0em 8em 0em;
+}
+
+.section-perg-resp {
+    padding-bottom: 4em;
+}
+
+.section-faq h2 {
+    color: #ffffff;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    letter-spacing: .02em;
+}
+
+.faq-header {
+    padding: 1.5em 0em 1em 0em;
+    text-align: center;
+    background: #F7971E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-bottom: 1em;
+}
+
+.faq-accordion {
+    padding-top: 4em;
+    padding-right: 5em;
+    padding-left: 5em;
+    margin: 0 auto;
+    align-items: top;
+}
+
+.faq-mae-padding-desk {
+    margin-top: 2em;
+}
+
+@media only screen and (max-width: 55em) {
+    .faq-header h1 {
+        font-size: 1.7em;
+    }
+    .faq-header h2 {
+        font-size: 1.2em;
+    }
+    .faq-accordion {
+        padding-right: .9em;
+        padding-left: .9em;
+        padding-top: 1.5em
+    }
+    .faq-mae-padding {
+        margin-top: 2em;
+    }
+}
+
+.faq-accordion h1 {
+    color: #737373;
+    font-size: 1em;
+}
+
+.faq-accordion a:hover {
+    text-decoration: none;
+}
+
+.faq-mae {
+    color: #ffffff;
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: .8em 0em .1em 1em !important;
+}
+
+.faq-mae h1 {
+    color: #ffffff;
+    font-size: 1.2em;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: .08em;
+}
+
+.card {
+    border: 1px solid rgba(255, 187, 0, 0.3) !important;
+    border-bottom: 1px solid rgba(255, 187, 0, 0.3) !important;
+}
+
+.card-header {
+    background-color: #ffffff !important;
+    padding: 1em 0em .8em 1em !important;
+    border-bottom: 1px solid rgba(255, 187, 0, 0.3) !important;
+}
+
+.card-header a {
+    cursor: pointer;
+}
+
+.card-content {
+    padding: 1.5em 0em 0em 0em;
+}
+
+.card-content a {
+    color: #4d4d4d;
+    padding: 1.5em 0em 0em 0em;
+}
+
+.card-content h6 {
+    color: #8c8c8c;
+}
+
+.card-content a:hover {
+    color: #ffbb00;
+    padding: 1.5em 0em 0em 0em;
+}
+
+.card-content i {
+    color: #ffbb00;
+    padding: 0em 0.5em 0em 0em;
+}
+
+.card-body p {
+    color: #8c8c8c;
+    font-size: .9em !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/* 9. Section Footer */
+
+
+/* 9.1. Footer Cols */
+
+.footer-section {
+    margin-top: 0em;
+    border-top: 1px solid #ffffff;
+}
+
+.footer-section h2 {
+    text-align: left;
+}
+
+.footer-styles {
+    padding: 2em 0em 3em 0em;
+    margin: 0 auto;
+    position: inherit;
+    margin: 0 auto;
+    margin-bottom: 0.05em;
+    bottom: 0px;
+    color: azure;
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.footer-styles a {
+    color: lightslategrey;
+}
+
+.footer-styles a:hover {
+    color: #fb0 !important;
+    text-decoration: none;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3 {
+    margin: 0 auto;
+    float: center;
+    text-align: left;
+    padding: 0em 1.2em 0em 1.2em;
+    font-size: 0.8em;
+}
+
+.footer-styles p {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 0em;
+    color: lightslategrey;
+}
+
+.footer-styles img {
+    padding-bottom: 1.2em;
+}
+
+.footer-styles h2 {
+    font-family: 'Poppins', sans-serif;
+    color: lightslategrey;
+    font-size: 1em;
+    padding-bottom: 1em;
+    letter-spacing: 0.1em;
+}
+
+.footer-styles i {
+    color: whitesmoke;
+    padding: 0em 0.5em 0.5em 0em;
+    font-size: 1em;
+}
+
+.footer-styles a:hover i {
+    color: #fb0;
+}
+
+.footer-col-3 i {
+    font-size: 1.7em;
+}
+
+.footer-col-2 i {
+    padding: 0em .9em 0.5em 0em;
+}
+
+.fa-whatsapp {
+    color: #0ad700 !important;
+    font-size: 1.5em !important;
+    vertical-align: sub;
+    padding: 0em .4em .3em 0em !important;
+}
+
+#fa-whatsapp {
+    color: #ffffff !important;
+    font-size: 1.5em !important;
+    vertical-align: sub;
+    padding: .3em .4em .3em 0em !important;
+}
+
+.footer-styles a {
+    color: lightslategrey;
+}
+
+.footer-styles button {
+    color: #fff;
+    border-color: #fff;
+    font-size: 1em;
+    font-weight: 100;
+    letter-spacing: 0.1em;
+    width: 10em;
+    background-color: unset;
+}
+
+.footer-styles a:hover button {
+    color: whitesmoke;
+    background-color: #fb0;
+    border-color: #fb0;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.ever-social-icons {
+    padding: 6px 6px 20px 6px !important;
+    vertical-align: middle;
+    font-size: 20px;
+}
+
+.ever-button-enviar {
+    margin-top: 1em;
+}
+
+.ever-button-enviar :hover button {
+    color: #fb0 !important;
+}
+
+.form-control {
+    border-radius: .25em !important;
+}
+
+.form-control {
+    border-radius: .25em !important;
+}
+
+.form-control-ever {
+    padding-left: 0em !important;
+    padding-right: 0em !important;
+}
+
+.everest-copyright {
+    height: 2.7em;
+    position: relative;
+    padding: 0.9em 0em 0.4em 0em;
+    margin: 0 auto;
+    margin-top: 0.065em;
+    bottom: 0px;
+    font-weight: 900;
+    background: #141E30;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/* 9.2. Footer Copyright */
+
+.everest-copyright h2 {
+    font-size: 12px;
+    font-weight: 400;
+    color: azure;
+}
+
+.everest-copyright h3 {
+    font-size: 12px;
+    font-weight: 400;
+    color: azure;
+}
+
+.everest-copyright h2 {
+    float: left;
+}
+
+.everest-copyright h3 {
+    float: right;
+}
+
+.everest-copyright a {
+    color: powderblue;
+}
+
+.everest-copyright a:hover {
+    color: turquoise;
+}
+
+
+/* 9.3 Footer Mobile */
+
+@media only screen and (max-width: 992px) {
+    .everest-copyright h2,
+    .everest-copyright h3 {
+        float: none;
+        text-align: center;
+    }
+    .everest-copyright {
+        height: 4.2em;
+        padding-top: 1.1em;
+        padding-bottom: 3.4em;
+    }
+    .footer-styles h2 {
+        font-family: 'Poppins', sans-serif;
+        color: lightslategrey;
+        font-size: 14px;
+        padding-bottom: 0.1em;
+        padding-top: 35px;
+        letter-spacing: 1px;
+    }
+    .ever-social-icons {
+        padding: 6px 6px 0px 6px !important;
+    }
+}
+
+
+/* end Footer Mobile */
+
+
+/* Seleciona Whatsapp Conforme Dispositivo */
+
+.zappmob {
+    display: none;
+}
+
+@media screen and (max-width: 34em) {
+    .everest-copyright h2 {
+        font-size: 11px;
+    }
+    .zapweb {
+        display: none;
+    }
+    .zappmob {
+        display: block;
+    }
+    #fa-whatsapp {
+        color: #ffffff !important;
+        font-size: 1.5em !important;
+        vertical-align: sub;
+        padding: .3em .4em .3em 0em !important;
+    }
+}
